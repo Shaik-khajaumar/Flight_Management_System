@@ -12,7 +12,7 @@ There are exception handling classes like NoDataFound.h and NoInstanceFound.h to
 This project can be used as a management system for Flights by adding required functionalities. 
 Some functionalities which I have addded are: 
 -> CreateObjects(): lambda function that creates the instances of Flight and stores their reference (shared pointers) in a container(vector). 
--> FindInstanceOfAirplane(): lambda function that returns a vector of shared_pointer of Airplane objects that match the FlightOperationType given by the user in the FlightContainer(vector of shared_pointer of Flight objects) that is also given by the user. 
+-> FindInstanceOfAirplane(): lambda function that returns a vector of shared_pointer of Airplane objects that match the FlightOperationType given by the user in the FlightContainer(vector of shared_pointer of Flight objects). 
 -> FindAirplaneTypeOfLowestSeatCount(): lambda function that returns the airplanetype(enum class) instance that has the lowest seat count in the flightContainer(vector of shared_pointer of Flight objects).
 -> FindInstanceOfAirplaneBySeatCount(): lambda function that returns a vector of shared_pointer of Airplane objects whose seat_count match the input given by the user.
 -> CountOfAllSeats(): returns the total number of seats in all the Flights.
