@@ -6,8 +6,8 @@ The purpose of this project is to utilize my knowledge in oops and Modern c++ fe
 Structure of the project: 
 The class for Flights is the Flight.h class. This class has information about the flight (Name and type of the flight) and it has a reference to the Airplane instance that is associated whith the flight.
 The class for Airplanes is the Airplane.h class. This class has properties like the Manmufacturer of the Airplane, Type of Airplane and number of seats in the Airplane.
-There are enum classes like AirPlaneType.h whose instance is used in Airplane class and FlightOperationType.h whose instance is used in the Flight class.
-There are exception classes like NoDataFound.h and NoInstanceFound.h to handle exceptions.
+There are enum classes like AirPlaneType.h whose instance is used in Airplane class and FlightOperationType.h whose instance is used in Flight class.
+There are exception handling classes like NoDataFound.h and NoInstanceFound.h to handle exceptions.
 
 This project can be used as a management system for Flights by adding required functionalities. 
 Some functionalities which I have addded are: 
