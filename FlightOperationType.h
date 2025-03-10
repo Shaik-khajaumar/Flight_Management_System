@@ -1,0 +1,10 @@
+#ifndef FLIGHTOPERATIONTYPE_H
+#define FLIGHTOPERATIONTYPE_H
+
+enum class FlightOperationType {
+
+    DOMESTIC,
+    INTERNATIONAL
+};
+
+#endif // FLIGHTOPERATIONTYPE_H
